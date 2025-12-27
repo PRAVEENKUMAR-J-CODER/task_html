@@ -1,34 +1,33 @@
 body {
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
-header {
-    background-color: rgb(242, 219, 104);
+    background-color:rgb(117, 111, 111);
     color: white;
-    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-
-section {
-    
-    margin: 20px;
+.player {
+    background-color: grey;
+    width: 300px;
     padding: 20px;
     border-radius: 10px;
 }
-
-h2 {
-    color:black;
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
 }
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    background-color:rgb(242 219 104);
-    color: white;
-    margin: 10px;
+.song {
+    background-color:darkslategrey;
     padding: 10px;
-    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
 }
+
+.title {
+    font-size: 20px;
+    margin: 0;
+}
+.artist {
+   
+    color:black;
+    margin: 0;
